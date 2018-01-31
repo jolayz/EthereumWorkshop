@@ -7,14 +7,14 @@ pragma solidity ^0.4.15;
  */
 library SafeMath {
 
-  function sub(uint256 a, uint256 b) internal constant returns (uint256) {
-    assert(b <= a);
-    return a - b;
-  }
+    function sub(uint256 a, uint256 b) internal constant returns (uint256) {
+        assert(b <= a);
+        return a - b;
+    }
 
-  function add(uint256 a, uint256 b) internal constant returns (uint256) {
-    uint256 c = a + b;
-    assert(c >= a);
-    return c;
-  }
+    function add(uint256 a, uint256 b) internal constant returns (uint256) {
+        uint256 c = a + b;
+        assert(c >= a);
+        return c;
+    }
 }
